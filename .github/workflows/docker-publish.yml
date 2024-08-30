@@ -37,6 +37,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: xterna//${{ github.event.repository.name }}
+          repository: xterna/${{ github.event.repository.name }}
           short-description: Unofficial Docker image for BearShare.
           readme-filepath: DOCKERHUB_README.md
