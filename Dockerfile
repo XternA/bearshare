@@ -5,7 +5,7 @@ LABEL description="Unofficial Docker image for BearShare."
 
 RUN apk update && \
     apk upgrade && \
-    apk add --no-cache wget && \
+    apk add --no-cache wget libc6-compat && \
     rm -rf /var/cache/apk/*
 
 WORKDIR /app
