@@ -2,7 +2,7 @@
 
 If you like this project, don't forget to leave a star. ⭐
 
-### Containerized Docker image for [Bearshare](https://bearshare.app)
+### Containerized Docker image for [Bearshare](https://bit.ly/4g7PmCs)
 
 >**Note:** This is an unofficial build and comes with no warranty of any kind. By using this image you also agree to BearShare's T&C.
 
