@@ -4,6 +4,7 @@ on:
     push:
       tags:
         - "*"
+    workflow_dispatch:
 
 jobs:
   build-and-push-image:
@@ -30,13 +31,3 @@ jobs:
           push: true
           tags: |
             xterna/${{ github.event.repository.name }}:latest
-            xterna/${{ github.event.repository.name }}:${{ github.ref_name }}
-
-      - name: Update Docker Hub Description
-        uses: peter-evans/dockerhub-description@v4
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: xterna/${{ github.event.repository.name }}
-          short-description: Unofficial Docker image for BearShare.
-          readme-filepath: DOCKERHUB_README.md
