@@ -2,7 +2,8 @@
 
 [![Static Badge](https://img.shields.io/badge/GitHub-blue?style=flat&logo=github)](https://github.com/XternA/bearshare)
 [![Static Badge](https://img.shields.io/badge/License-purple?style=flat&logo=github)](https://github.com/XternA/bearshare?tab=License-1-ov-file)
-![Docker Image Version (tag)](https://img.shields.io/docker/v/xterna/bearshare/latest?style=flat&logo=opencontainersinitiative&label=Image%20Tag&color=green)
+![Docker Image Version (tag)](https://img.shields.io/docker/v/xterna/bearshare/latest?logo=opencontainersinitiative&label=Image%20Tag&color=orange)
+![Docker Image Size](https://img.shields.io/docker/image-size/xterna/bearshare?style=flat&logo=opencontainersinitiative&label=Image%20Size&color=green)
 [![Docker Stars](https://img.shields.io/docker/stars/xterna/bearshare?logo=docker&label=Docker%20Stars)](https://hub.docker.com/r/xterna/bearshare)
 [![GitHub Repo stars](https://img.shields.io/github/stars/XternA/bearshare?style=flat&logo=github&label=Stars&color=orange)](https://github.com/XternA/bearshare)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=32DCQ65QM5FNE)
