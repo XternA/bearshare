@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/GitHub-blue?style=flat&logo=github)](https://github.com/XternA/bearshare)
 [![Static Badge](https://img.shields.io/badge/License-purple?style=flat&logo=github)](https://github.com/XternA/bearshare?tab=MIT-1-ov-file)
-[![Docker Image Version (tag)](https://img.shields.io/docker/v/xterna/bearshare/latest?logo=opencontainersinitiative&label=Image%20Tag&color=orange)](https://hub.docker.com/r/xterna/bearshare/tags)
+[![Docker Image Version (tag)](https://img.shields.io/docker/v/xterna/bearshare/latest?logo=opencontainersinitiative&label=Image%20Version&color=orange)](https://hub.docker.com/r/xterna/bearshare/tags)
 [![Docker Image Size](https://img.shields.io/docker/image-size/xterna/bearshare?style=flat&logo=opencontainersinitiative&label=Image%20Size&color=green)](https://hub.docker.com/r/xterna/bearshare/tags)
 [![Docker Stars](https://img.shields.io/docker/stars/xterna/bearshare?logo=docker&label=Docker%20Stars)](https://hub.docker.com/r/xterna/bearshare)
 [![GitHub Repo stars](https://img.shields.io/github/stars/XternA/bearshare?style=flat&logo=github&label=Stars&color=orange)](https://github.com/XternA/bearshare)
