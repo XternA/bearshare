@@ -1,13 +1,13 @@
 #!/bin/sh
 
 clear
-echo -e "\033[0;92m
+printf "\033[0;92m
   ___ ___   _   ___  ___ _  _   _   ___ ___
  | _ ) __| /_\ | _ \/ __| || | /_\ | _ \ __|
  | _ \ _| / _ \|   /\__ \ __ |/ _ \|   / _|
  |___/___/_/ \_\_|_\|___/_||_/_/ \_\_|_\___|
-\033[0m"
+\033[0m\n"
 
-echo -e "\nLOGIN USER: \033[0;91m${EMAIL}\033[0m\n"
+printf "\nLOGIN USER: \033[0;91m%s\033[0m\n\n" "$EMAIL"
 
 ./cli -email "$EMAIL" -password "$PASSWORD"
